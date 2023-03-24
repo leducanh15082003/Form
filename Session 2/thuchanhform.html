@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuchanhform</title>
+</head>
+<body>
+    <h1>
+        Create Account
+    </h1>
+
+    <p>
+        Registration information
+    </p>
+
+    <form>
+        <div>
+
+            <!-- firstname -->
+            <label for="firstName">
+                <b>First Name*: </b>
+            </label>
+            <input type="text" name="" id="firstName">
+
+            <!-- lastname -->
+            <label for="lastName">
+                <b>Last Name*: </b>
+            </label>
+            <input type="text" id="lastName">
+        </div>
+
+        <br>
+
+        <div>
+
+            <!-- Email -->
+            <label for="email">
+                <b>Email*: </b>
+            </label>
+            <input type="email" id="email">
+
+            <!-- Phone -->
+            <label for="phone">
+                <b>Phone*: </b>
+            </label>
+            <input type="text" id="phone">
+        </div>
+
+        <br>
+
+        <div>
+
+            <!-- passWord -->
+            <label for="passWord">
+                <b>Password*: </b>
+            </label>
+            <input type="password" id="passWord">
+
+            <!-- Confirm Password -->
+            <label for="cPassword">
+                <b>Confirm Password*: </b>
+            </label>
+            <input type="password" id="cPassword">
+        </div>
+
+        <br>
+        
+        <p>
+            Personal information
+        </p>
+
+        <div>
+
+            <!-- Gender -->
+            <label for="gender">
+                <b>Gender: </b>
+            </label>
+            <input type="radio" name="gender" id="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" checked>
+            <label for="female">
+                Female
+            </label>
+
+            <!-- Hobbies -->
+            <label for="hobby">
+                <b>Hobbies</b>
+            </label>
+            <input type="checkbox" name="hobby" id="music">
+            <label for="music">
+                Music
+            </label>
+            <input type="checkbox" name="hobby" id="sport">
+            <label for="sport">
+                Sports
+            </label>
+            <input type="checkbox" name="hobby" id="travel">
+            <label for="travel">
+                Travel
+            </label>
+            <input type="checkbox" name="hobby" id="movie">
+            <label for="movie">
+                Movies
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Source of Income -->
+            <label for="SoI">
+                Source of Income
+            </label>
+            <select>
+                <option value="emp">Employed</option>
+                <option value="unemp">Unemployed</option>
+            </select>
+
+            <!-- Income -->
+            <label for="income">
+                Income
+            </label>
+            <input type="range" name="income" min="10" max="50">
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Age -->
+            <label for="age">
+                <b>Age: </b>
+            </label>
+            <input type="number" name="age">
+
+            <!-- Profile Picture -->
+            <label for="pp">
+                <b>Profile Picture</b>
+            </label>
+            <input type="button" name="pp" id="pp" value="Choose file">
+            <label>No file chosen</label>
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Birthday -->
+            <label for="birth">
+                <b>Birthday</b>
+            </label>
+            <input type="date" name="birth" id="birth">
+
+            <!-- Address -->
+            <label for="add">
+                <b>Address</b>
+            </label>
+            <input type="text" id="add">
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Bio -->
+            <label for="bio">
+                <b>Bio: </b>
+            </label>
+            <textarea name="bio" id="bio" cols="50" rows="4"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <!-- Create -->
+            <input type="submit" value="Create">
+
+            <!-- Reset -->
+            <input type="reset" name="Reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
